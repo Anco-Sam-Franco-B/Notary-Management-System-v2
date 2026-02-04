@@ -18,7 +18,7 @@ This README was generated from an analysis of the repository contents (PHP pages
 - [Development notes & security recommendations](#development-notes--security-recommendations)
 - [Contributing](#contributing)
 - [License](#license)
-- [What I did and what's next](#what-i-did-and-whats-next)
+
 
 ---
 
@@ -206,13 +206,3 @@ Please tell me which area you want to prioritize.
 - The rest of the project does not include an explicit license file in the repository snapshot I analyzed. If you intend to open-source this project, add a LICENSE file (MIT, Apache-2.0, etc.) as appropriate.
 
 ---
-
-## What I did and what's next
-
-I analyzed your repository files (I inspected pages such as `readDoc.php`, `testing.php`, the header include, `assets/js/main.js`, `assets/css/ccc.css`, and the bundled `fpdf/` library) and used that information to write this README.md describing the application, installation steps, an example DB schema, and security/development suggestions. If you want, I can now:
-
-- Generate and add a SQL seed file that matches the app's expected tables,
-- Produce a ready-to-run `config.sample.php` for `includes/configs/DBconfig.php`,
-- Or convert vulnerable inline SQL calls to prepared statements across the codebase.
-
-Tell me which of the above you'd like me to do next and I will prepare the corresponding files/patches.
